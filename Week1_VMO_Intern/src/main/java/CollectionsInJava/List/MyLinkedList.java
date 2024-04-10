@@ -27,7 +27,6 @@ public class MyLinkedList {
         // Truy cập phần tử trong LinkedList bằng chỉ mục
         String fruit = linkedList.get(1);
         System.out.println("Phần tử thứ hai trong LinkedList: " + fruit);
-        
         // Thêm một phần tử vào đầu danh sách
         linkedList.addFirst("Grapes");
         System.out.println("LinkedList sau khi thêm 'Grapes' vào đầu: " + linkedList);
